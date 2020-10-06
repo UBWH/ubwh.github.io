@@ -1,5 +1,8 @@
-h1 {
+body {
   font-family: "Barlow",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;
+}
+
+h1 {
   color: blue;
 }
 
