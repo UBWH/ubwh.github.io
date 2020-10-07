@@ -18,11 +18,11 @@ Tasmota devices work differently; they are controlled via
 **Tasmota Plus** has these enhancements over Tasmota.
 | Feature                        | Comment       
 | :------------------------------|:-------------| 
-| WAN security                   | Prevent commands being executed unless coming from a nominated IP address
-| Timer configuration page       | Allowing timer controls such a 'Turn ON at Sunset plus 15 mins'
-| Clock configuration page       | Allowing setting of parameters (Time zone, Daylight saving, ...) so that Real Time Clock is accurate
-| WiFi signal strength indicator | Easy visualisation of WiFi signal
-| Ping watchdogs                 | Enabling cycling of socket power if pings to a nominated IP address fail
+| __WAN security__                   | Prevent commands being executed unless coming from a nominated IP address
+| __Timer configuration page__       | Allowing timer controls such a 'Turn ON at Sunset plus 15 mins'
+| __Clock configuration page__       | Allowing setting of parameters (Time zone, Daylight saving, ...) so that Real Time Clock is accurate
+| __WiFi signal strength indicator__ | Easy visualisation of WiFi signal
+| __Ping watchdogs__                 | Enabling cycling of socket power if pings to a nominated IP address fail
 
 ## Products Available with Tasmota Plus
 | Part Number                     | Description | Image       
