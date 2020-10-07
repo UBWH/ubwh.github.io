@@ -15,7 +15,7 @@ Tasmota devices work differently; they are controlled via
 1. [Many others...](https://tasmota.github.io/docs/Integrations/)
   
 ## Why Tasmota Plus?
-This table summarises the differences between normal ***Tasmota** and **Tasmota Plus** has these enhancements over Tasmota.
+This table summarises the differences between normal **Tasmota** and **Tasmota Plus**.
 
 | Feature                        | Tasmota Standard | Tasmota Plus |       
 | :------------------------------|:------------:|:------:|
@@ -39,15 +39,16 @@ Prevent commands being executed unless coming from a nominated IP address.
 
 ### Clock Config Page ###
 <img src="assets/images/TasmotaPlus_ClockPage.png" width="200px">
-Allowing setting of parameters (Time zone, Daylight saving, ...) so that Real Time Clock is accurate.
+Allowing setting of parameters (Time zone, Daylight saving, ...) so that the Real Time Clock is accurate.
 
 ### Ping Command ###
-<img src="assets/images/TasmotaPlus_PingCmnd.png" width="100px">
-Command such as _ping 8.8.8.8_ can be issued from the Console command line. See [Tasmota Ping command](https://tasmota.github.io/docs/Commands/#ping) for more information.
+<img src="assets/images/TasmotaPlus_PingCmnd.png" width="150px">
+Commands such as ping 8.8.8.8 can be issued from the Console command line. 
+See [Tasmota Ping command](https://tasmota.github.io/docs/Commands/#ping) for more information.
 
 ### Ping Watchdogs ###
-<img src="assets/images/TasmotaPlus_PingPage.png" width="200px">
-Enabling cycling of socket power if pings to a nominated IP address fail
+<img src="assets/images/TasmotaPlus_PingPage.png" width="300px">
+Enabling cycling of socket power if pings to a nominated IP address fail.
 
 ### WiFi signal strength indicator ###
 <img src="assets/images/TasmotaPlus_WiFi_Indicator.png" width="200px">
