@@ -26,7 +26,7 @@ This table summarises the differences between normal **Tasmota** and **Tasmota P
 |[WiFi signal strength indicator](#wifi-signal-strength-indicator)|❌|✔️|
 |Works with [Google](https://assistant.google.com/)|✔️|✔️|
 |Works with [Alexa](https://en.wikipedia.org/wiki/Amazon_Alexa)|✔️|✔️|
-|Works with [MQTT](https://mqtt.org/)|✔️|✔️*|
+|Works with [MQTT](https://mqtt.org/)|✔️|✔️|
 |Works with [Domoticz](https://www.domoticz.com/)|✔️|✔️|
 
 ➕ = Enhanced
@@ -64,7 +64,7 @@ With _Tasmota Standard_, WiFi signal level is only available in the _Information
 | :---------------|:------------:|:-------: 
 | Image | <img src="assets/images/SP-Plug-AU_01.png" width="100px">|<img src="assets/images/SP-Strip-AU_01.png" width="200px">
 |Description | A single-outlet, voltage and power monitoring Australian Smart Plug.|A 4-outlet Australian Smart Power Strip. 
-| Main page|<img src="assets/images/SP-Plug-AU_main.png" width="100px">|<img src="assets/images/SP-Strip-AU_main.png" width="100px">
+| Main page|<img src="assets/images/SP-Plug-AU_main.png" width="200px">|<img src="assets/images/SP-Strip-AU_main.png" width="200px">
 | Firmware URL | http://ubwh.com.au/tasmota/SP-Plug-AU/tasmota.bin.gz | http://ubwh.com.au/tasmota/SP-Strip-AU/tasmota.bin.gz
 
 ## Firmware Upgrade Instructions
