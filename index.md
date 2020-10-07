@@ -1,4 +1,4 @@
-![Tasmota Plus](https://github.com/UBWH/tasmota_plus/blob/master/images/TasmotaPlus_small.png)
+![Tasmota Plus](assets/images/TasmotaPlus_small.png)
 # Tasmota Plus
 [UBWH](https://ubwh.com.au) has developed an enhanced version of [Tasmota](https://tasmota.github.io/docs/ "Tasmota") with additional features making it better suited for use by IT professionals.
 
@@ -15,7 +15,28 @@ Tasmota devices work differently; they are controlled via
 1. [Many others...](https://tasmota.github.io/docs/Integrations/)
   
 ## Why Tasmota Plus?
-**Tasmota Plus** has these enhancements over Tasmota.
+This table summarises the differences between normal ***Tasmota** and **Tasmota Plus** has these enhancements over Tasmota.
+
+| Feature                        | Tasmota | Tasmota Plus |       
+| :------------------------------|:-------------|:-------|
+|WAN Security||**Yes**|
+|Clock config page||**Yes**|
+|Ping command|Not in standard distribution|**Yes**|
+|Ping watchdogs||**Yes**|
+|WiFi signal strength indicator||**Yes**|
+|Timers config page|Yes|**Enhanced**|
+|Works with Google|Yes|**Yes**|
+|Works with Alexa|Yes|**Yes**|
+|Works with MQTT|Yes|**Yes**|
+|Works with Domoticz|Yes|**Yes**|
+
+
+
+
+
+
+
+
 | Feature                        | Comment       
 | :------------------------------|:-------------| 
 | __WAN security__                   | Prevent commands being executed unless coming from a nominated IP address
