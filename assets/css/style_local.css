@@ -1,8 +1,12 @@
 body {
   font-family: "Barlow",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;
 }
+header {
+  background-color: hsl(207deg 90% 54%);
+  background: inherit;
+}
 
 h1 {
-  color: blue;
+  color: black;
 }
 
