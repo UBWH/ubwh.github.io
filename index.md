@@ -58,26 +58,21 @@ With _Tasmota Standard_, WiFi signal level is only available in the _Information
 
 
 ## Products Available with Tasmota Plus
-| Part Number                     | Description | Image       
-| :------------------------------|:-------------|-------- 
-| [SP-Plug-AU](https://ubwh.com.au/SP-Plug-AU) | A single-outlet, voltage and power monitoring Australian Smart Plug. | <img src="assets/images/SP-Plug-AU_01.png" width="200px">
-| [SP-Strip-AU](https://ubwh.com.au/SP-Strip-AU) | A 4-outlet Australian Smart Power Strip. | <img src="assets/images/SP-Strip-AU_01.png" width="200px">
 
-## Firmware Downloads and Upgrade Instructions
-### Firmware Download URLs
 
-* __SP-Plug-AU__
-  * http://ubwh.com.au/tasmota/SP-Plug-AU/tasmota.bin.gz
+| Part Number     | [SP-Plug-AU](https://ubwh.com.au/SP-Plug-AU) | [SP-Strip-AU](https://ubwh.com.au/SP-Strip-AU)       
+| :---------------|:------------:|:-------: 
+| Image | <img src="assets/images/SP-Plug-AU_01.png" width="100px">|<img src="assets/images/SP-Strip-AU_01.png" width="200px">
+|Description | A single-outlet, voltage and power monitoring Australian Smart Plug.|A 4-outlet Australian Smart Power Strip. 
+| Main page|<img src="assets/images/SP-Plug-AU_main.png" width="100px">|<img src="assets/images/SP-Strip-AU_main.png" width="100px">
+| Firmware URL | http://ubwh.com.au/tasmota/SP-Plug-AU/tasmota.bin.gz | http://ubwh.com.au/tasmota/SP-Strip-AU/tasmota.bin.gz
 
-* __SP-Strip-AU__
-  * http://ubwh.com.au/tasmota/SP-Strip-AU/tasmota.bin.gz
-
-### Instructions
+## Firmware Upgrade Instructions
 There are two ways to upgrade the firmware: 
 1. __Over the Air (OTA)__
 * Open the Main page of your Tasmota-Plus device
 * Click __Firmware Upgrade__
-* In the _OTA Url_ box enter the _Download URL_ for you device (see above)
+* In the _OTA Url_ box enter the _Firmware URL_ for you device (see above)
 * Click _Start upgrade_
 * Your device will:
   * Download the firmware file
@@ -86,7 +81,7 @@ There are two ways to upgrade the firmware:
 * Your device will NOT:
   * Change the Settings (i.e. Configuration)
 2. __Upload file__
-* With your local computer: Visit the _Download URL_ for your device (see above)
+* With your local computer: Visit the _Firmware URL_ for your device (see above)
 * Download and save the file
 * Open the Main page of your Tasmota-Plus device
 * Click __Firmware Upgrade__
