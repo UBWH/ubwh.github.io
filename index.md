@@ -27,8 +27,8 @@ Tasmota devices work differently; they are controlled via
 ## Products Available with Tasmota Plus
 | Part Number                     | Description | Image       
 | :------------------------------|:-------------|-------- 
-| [SP-Plug-AU](https://ubwh.com.au/SP-Plug-AU) | A single-outlet, voltage and power monitoring Australian Smart Plug. | <img src="images/SP-Plug-AU_01.png" width="200px">
-| [SP-Strip-AU](https://ubwh.com.au/SP-Strip-AU) | A 4-outlet Australian Smart Power Strip. | <img src="images/SP-Strip-AU_01.png" width="200px">
+| [SP-Plug-AU](https://ubwh.com.au/SP-Plug-AU) | A single-outlet, voltage and power monitoring Australian Smart Plug. | <img src="assets/images/SP-Plug-AU_01.png" width="200px">
+| [SP-Strip-AU](https://ubwh.com.au/SP-Strip-AU) | A 4-outlet Australian Smart Power Strip. | <img src="assets/images/SP-Strip-AU_01.png" width="200px">
 
 ## Firmware Downloads and Upgrade Instructions
 ### Firmware Download URLs
