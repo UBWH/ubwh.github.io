@@ -24,7 +24,6 @@ This table summarises the differences between normal ***Tasmota** and **Tasmota 
 |[Ping command](#ping-command)|❌|✔️|
 |[Ping watchdogs](#ping-watchdogs)|❌|✔️|
 |[WiFi signal strength indicator](#wifi-signal-strength-indicator)|❌|✔️|
-|[Timers config page](#timers-config-page)|✔️|✔️➕|
 |Works with [Google](https://assistant.google.com/)|✔️|✔️|
 |Works with [Alexa](https://en.wikipedia.org/wiki/Amazon_Alexa)|✔️|✔️|
 |Works with [MQTT](https://mqtt.org/)|✔️|✔️*|
@@ -35,22 +34,27 @@ This table summarises the differences between normal ***Tasmota** and **Tasmota 
 ## Tasmota Plus Features
 
 ### WAN security ###  
-Prevent commands being executed unless coming from a nominated IP address
+<img src="assets/images/TasmotaPlus_WANsecurity.jpg" width="200px">
+Prevent commands being executed unless coming from a nominated IP address.
 
 ### Clock Config Page ###
+<img src="assets/images/TasmotaPlus_ClockPage.png" width="200px">
 Allowing setting of parameters (Time zone, Daylight saving, ...) so that Real Time Clock is accurate.
 
 ### Ping Command ###
+<img src="assets/images/TasmotaPlus_PingCmnd.png" width="100px">
 Command such as _ping 8.8.8.8_ can be issued from the Console command line. See [Tasmota Ping command](https://tasmota.github.io/docs/Commands/#ping) for more information.
 
 ### Ping Watchdogs ###
+<img src="assets/images/TasmotaPlus_PingPage.png" width="200px">
 Enabling cycling of socket power if pings to a nominated IP address fail
 
 ### WiFi signal strength indicator ###
-Easy visualisation of the WiFi signal strength as seen by the Tasmota device. With _Tasmota Standard_, this information is only available in the _Information 
+<img src="assets/images/TasmotaPlus_WiFi_Indicator.png" width="200px">
+Visualisation of the WiFi signal strength as seen by the Tasmota device.
 
-### Timers config page ###
-Allowing timer controls such a 'Turn ON at Sunset plus 15 mins'. tba
+With _Tasmota Standard_, WiFi signal level is only available in the _Information_ page. 
+
 
 ## Products Available with Tasmota Plus
 | Part Number                     | Description | Image       
