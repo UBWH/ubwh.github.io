@@ -17,33 +17,40 @@ Tasmota devices work differently; they are controlled via
 ## Why Tasmota Plus?
 This table summarises the differences between normal ***Tasmota** and **Tasmota Plus** has these enhancements over Tasmota.
 
-| Feature                        | Tasmota | Tasmota Plus |       
-| :------------------------------|:-------------|:-------|
-|WAN Security||**Yes**|
-|Clock config page||**Yes**|
-|Ping command|Not in standard distribution|**Yes**|
-|Ping watchdogs||**Yes**|
-|WiFi signal strength indicator||**Yes**|
-|Timers config page|Yes|**Enhanced**|
-|Works with Google|Yes|**Yes**|
-|Works with Alexa|Yes|**Yes**|
-|Works with MQTT|Yes|**Yes**|
-|Works with Domoticz|Yes|**Yes**|
+| Feature                        | Tasmota Standard | Tasmota Plus |       
+| :------------------------------|:------------:|:------:|
+|[WAN Security](#wan-security)|❌|✔️|
+|[Clock config page](#clock-config-page)|❌|✔️|
+|[Ping command](#ping-command)|❌|✔️|
+|[Ping watchdogs](#ping-watchdogs)|❌|✔️|
+|[WiFi signal strength indicator](#wifi-signal-strength-indicator)|❌|✔️|
+|[Timers config page](#timers-config-page)|✔️|✔️➕|
+|Works with [Google](https://assistant.google.com/)|✔️|✔️|
+|Works with [Alexa](https://en.wikipedia.org/wiki/Amazon_Alexa)|✔️|✔️|
+|Works with [MQTT](https://mqtt.org/)|✔️|✔️*|
+|Works with [Domoticz](https://www.domoticz.com/)|✔️|✔️|
 
+➕ = Enhanced
 
+## Tasmota Plus Features
 
+### WAN security ###  
+Prevent commands being executed unless coming from a nominated IP address
 
+### Clock Config Page ###
+Allowing setting of parameters (Time zone, Daylight saving, ...) so that Real Time Clock is accurate.
 
+### Ping Command ###
+Command such as _ping 8.8.8.8_ can be issued from the Console command line. See [Tasmota Ping command](https://tasmota.github.io/docs/Commands/#ping) for more information.
 
+### Ping Watchdogs ###
+Enabling cycling of socket power if pings to a nominated IP address fail
 
+### WiFi signal strength indicator ###
+Easy visualisation of the WiFi signal strength as seen by the Tasmota device. With _Tasmota Standard_, this information is only available in the _Information 
 
-| Feature                        | Comment       
-| :------------------------------|:-------------| 
-| __WAN security__                   | Prevent commands being executed unless coming from a nominated IP address
-| __Timer configuration page__       | Allowing timer controls such a 'Turn ON at Sunset plus 15 mins'
-| __Clock configuration page__       | Allowing setting of parameters (Time zone, Daylight saving, ...) so that Real Time Clock is accurate
-| __WiFi signal strength indicator__ | Easy visualisation of WiFi signal
-| __Ping watchdogs__                 | Enabling cycling of socket power if pings to a nominated IP address fail
+### Timers config page ###
+Allowing timer controls such a 'Turn ON at Sunset plus 15 mins'. tba
 
 ## Products Available with Tasmota Plus
 | Part Number                     | Description | Image       
