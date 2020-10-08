@@ -65,6 +65,7 @@ With _Tasmota Standard_, WiFi signal level is only available in the _Information
 | Image | <img src="assets/images/SP-Plug-AU_01.png" width="100px">|<img src="assets/images/SP-Strip-AU_01.png" width="200px">
 |Description | A single-outlet, voltage and power monitoring Australian Smart Plug.|A 4-outlet Australian Smart Power Strip. 
 | Main page|<img src="assets/images/SP-Plug-AU_main.png" width="200px">|<img src="assets/images/SP-Strip-AU_main.png" width="200px">
+| User Guide|[User Guide](assets/guides/USG-SP-Plus.pdf)|[User Guide](assets/guides/USG-SP-Strip.pdf)
 | Firmware URL | http://ubwh.com.au/tasmota/SP-Plug-AU/tasmota.bin.gz | http://ubwh.com.au/tasmota/SP-Strip-AU/tasmota.bin.gz
 
 ## Firmware Upgrade Instructions
