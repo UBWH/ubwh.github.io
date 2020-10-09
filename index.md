@@ -35,19 +35,23 @@ This table summarises the differences between normal **Tasmota** and **Tasmota P
 
 ### WAN security ###  
 <img src="assets/images/TasmotaPlus_WANsecurity.jpg" width="200px">
+
 Prevent commands being executed unless coming from a nominated IP address.
 
 ### Clock Config Page ###
 <img src="assets/images/TasmotaPlus_ClockPage.png" width="200px">
+
 Allowing setting of parameters (Time zone, Daylight saving, ...) so that the Real Time Clock is accurate.
 
 ### Ping Command ###
 <img src="assets/images/TasmotaPlus_PingCmnd.png" width="150px">
+
 Commands such as ping 8.8.8.8 can be issued from the Console command line. 
 See [Tasmota Ping command](https://tasmota.github.io/docs/Commands/#ping) for more information.
 
 ### Ping Watchdogs ###
 <img src="assets/images/TasmotaPlus_PingPage.png" width="300px">
+
 Enabling cycling of socket power if pings to a nominated IP address fail.
 
 ### WiFi signal strength indicator ###
