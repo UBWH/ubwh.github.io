@@ -27,8 +27,6 @@ This table summarises the differences between normal **Tasmota** and **Tasmota P
 |Works with [MQTT](https://mqtt.org/)|✔️|✔️|
 |Works with [Domoticz](https://www.domoticz.com/)|✔️|✔️|
 
-➕ = Enhanced
-
 ## Tasmota Plus Features
 
 ### WAN security ###  
