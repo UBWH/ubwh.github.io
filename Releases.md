@@ -1,7 +1,6 @@
 ---
-title: Releases
 layout: page
-filename: Releases.md
+title: Releases
 permalink: /Releases
 --- 
 
