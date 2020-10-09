@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Releases
-permalink: /folder/Releases.md
+permalink: /Releases
 --- 
 
 # Page Content #
