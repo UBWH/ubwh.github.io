@@ -1,6 +1,9 @@
+---
+title: Releases
 layout: page
-title: "PAGE TITLE"
+filename: Releases.md
 permalink: /Releases
+--- 
 
 # Page Content #
 test
