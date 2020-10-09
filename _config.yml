@@ -2,6 +2,7 @@ theme: jekyll-theme-leap-day
 title: Tasmota-Plus
 description: Tasmota, plus features for IT Professionals
 show_downloads: false 
+show_banner: false 
 defaults:
   - scope:
       path: ""
