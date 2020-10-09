@@ -24,8 +24,6 @@ This table summarises the differences between normal **Tasmota** and **Tasmota P
 |[Ping command](#ping-command)|❌|✔️|
 |[Ping watchdogs](#ping-watchdogs)|❌|✔️|
 |[WiFi signal strength indicator](#wifi-signal-strength-indicator)|❌|✔️|
-|Works with [Google](https://assistant.google.com/)|✔️|✔️|
-|Works with [Alexa](https://en.wikipedia.org/wiki/Amazon_Alexa)|✔️|✔️|
 |Works with [MQTT](https://mqtt.org/)|✔️|✔️|
 |Works with [Domoticz](https://www.domoticz.com/)|✔️|✔️|
 
