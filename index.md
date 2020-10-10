@@ -1,5 +1,5 @@
 ![Tasmota Plus](assets/images/TasmotaPlus_small.png)
-# Tasmota Plus
+# Tasmota-Plus
 [UBWH](https://ubwh.com.au) has developed an enhanced version of [Tasmota](https://tasmota.github.io/docs/ "Tasmota") with additional features making it better suited for use by IT professionals.
 
 ## Why Tasmota?
@@ -14,10 +14,10 @@ Tasmota devices work differently; they are controlled via
 1. [openHAB]()
 1. [Many others...](https://tasmota.github.io/docs/Integrations/)
   
-## Why Tasmota Plus?
-This table summarises the differences between normal **Tasmota** and **Tasmota Plus**.
+## Why Tasmota-Plus?
+This table summarises the differences between normal **Tasmota** and **Tasmota-Plus**.
 
-| Feature                        | Tasmota Standard | Tasmota Plus |       
+| Feature                        | Tasmota Standard | Tasmota-Plus |       
 | :------------------------------|:------------:|:------:|
 |[WAN Security](#wan-security)|❌|✔️|
 |[Clock config page](#clock-config-page)|❌|✔️|
@@ -27,9 +27,9 @@ This table summarises the differences between normal **Tasmota** and **Tasmota P
 |Works with [MQTT](https://mqtt.org/)|✔️|✔️|
 |Works with [Domoticz](https://www.domoticz.com/)|✔️|✔️|
 
-## Tasmota Plus Features
+## Tasmota-Plus Features
 
-### WAN security ###  
+### WAN Security ###  
 <img src="assets/images/TasmotaPlus_WANsecurity.jpg" width="200px">
 
 Prevent commands being executed unless coming from a nominated IP address.
@@ -57,7 +57,7 @@ Visualisation of the WiFi signal strength as seen by the Tasmota device.
 With _Tasmota Standard_, WiFi signal level is only available in the _Information_ page. 
 
 
-## Products Available with Tasmota Plus
+## Products Available with Tasmota-Plus
 
 
 | Part Number     | [SP-Plug-AU](https://ubwh.com.au/SP-Plug-AU) | [SP-Strip-AU](https://ubwh.com.au/SP-Strip-AU)       
@@ -66,7 +66,7 @@ With _Tasmota Standard_, WiFi signal level is only available in the _Information
 |Description | A single-outlet, voltage and power monitoring Australian Smart Plug.|A 4-outlet Australian Smart Power Strip. 
 | Main page|<img src="assets/images/SP-Plug-AU_main.png" width="200px">|<img src="assets/images/SP-Strip-AU_main.png" width="200px">
 | User Guide|[User Guide](assets/guides/USG-SP-Plus.pdf)|[User Guide](assets/guides/USG-SP-Strip.pdf)
-| Firmware | https://ubwh.com.au/tasmota/Tasmota-Plus/SP-Plug-ReleaseNotes.php | https://ubwh.com.au/tasmota/Tasmota-Plus/SP-Strip-ReleaseNotes.phpgz
+| Firmware | [Releases](https://ubwh.com.au/tasmota/Tasmota-Plus/SP-Plug-ReleaseNotes.php) | [Releases](https://ubwh.com.au/tasmota/Tasmota-Plus/SP-Strip-ReleaseNotes.php)
 
 ## Firmware Upgrade Instructions
 * With your local computer: Visit the _Firmware_ URL for your device (see above)
