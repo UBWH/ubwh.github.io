@@ -9,9 +9,9 @@ Unfortunately, many IoT devices are controlled via a cloud server; commonly in C
 
 Tasmota devices work differently; they are controlled via
 1. the built-in Web server [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface)
-1. http URLs: e.g. [http://_My.IP.Address.com_/cm?cmnd=Power On]()
-1. [MQTT]()
-1. [openHAB]()
+1. http URLs: e.g. [http://My.IP.Address.com/cm?cmnd=Power1%20On](http://My.IP.Address.com/cm?cmnd=Power1%20On)
+1. [MQTT](https://mqtt.org/)
+1. [openHAB](https://www.openhab.org/)
 1. [Many others...](https://tasmota.github.io/docs/Integrations/)
   
 ## Why Tasmota-Plus?
