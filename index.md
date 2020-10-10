@@ -71,12 +71,17 @@ With _Tasmota Standard_, WiFi signal level is only available in the _Information
 
 ## Firmware Upgrade Instructions
 * With your local computer: Visit the _Firmware_ URL for your device (see above)
-* Download and save the file for the release you want
+* Download and save both files for the release you want (tasmota-XXXXX-minimal.bin.gz & tasmota-XXXXX.bin.gz)
 * Open the Main page of your Tasmota-Plus device
 * Click __Firmware Upgrade__
 * Click __Choose file__
-* Select the file just downloaded
+* Select the tasmota-XXXXX.bin.gz file just downloaded
 * Click __Start upgrade__
+* If that did not work: 
+  * Upload the tasmota-XXXXX-minimal.bin.gz file
+  * Wait for the Tasmota-Plus device to reboot.
+  * Upload the tasmota-XXXXX.bin.gz file
+  
 
 
 
