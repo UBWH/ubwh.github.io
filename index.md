@@ -52,6 +52,7 @@ Enabling cycling of socket power if pings to a nominated IP address fail.
 
 ### WiFi signal strength indicator ###
 <img src="assets/images/TasmotaPlus_WiFi_Indicator01.png" width="200px">
+
 Visualisation of the WiFi signal strength as seen by the Tasmota device.
 
 With _Tasmota Standard_, WiFi signal level is only available in the _Information_ page. 
