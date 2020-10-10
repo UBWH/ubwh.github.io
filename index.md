@@ -69,7 +69,7 @@ With _Tasmota Standard_, WiFi signal level is only available in the _Information
 | Firmware | https://ubwh.com.au/tasmota/Tasmota-Plus/SP-Plug-ReleaseNotes.php | https://ubwh.com.au/tasmota/Tasmota-Plus/SP-Strip-ReleaseNotes.phpgz
 
 ## Firmware Upgrade Instructions
-* With your local computer: Visit the _Firmware URL_ for your device (see above)
+* With your local computer: Visit the _Firmware_ URL for your device (see above)
 * Download and save the file for the release you want
 * Open the Main page of your Tasmota-Plus device
 * Click __Firmware Upgrade__
