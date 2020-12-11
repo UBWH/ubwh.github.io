@@ -73,7 +73,7 @@ With _Tasmota Standard_, WiFi signal level is only available in the _Information
 | :---------------|:------------:|
 | Image | <img src="assets/images/SS-4CHPro.jpg" width="100px">|
 | Description | A 4-Channel Smart Relay/Switch|
-| Main page|<img src="assets/images/SS-4CHPro_main.png" width="200px">|
+| Main page|<img src="assets/images/SS-4CHPro_main_.png" width="200px">|
 | User Guide|[User Guide](https://github.com/UBWH/ubwh.github.io/blob/master/assets/UserGuides/UG-SS-4CHPro.pdf)|
 | Firmware | [Releases](https://ubwh.com.au/tasmota/Tasmota-Plus/SS-4CHPro-ReleaseNotes.php) |
 
