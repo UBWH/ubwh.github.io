@@ -69,13 +69,13 @@ With _Tasmota Standard_, WiFi signal level is only available in the _Information
 | User Guide|[User Guide](https://github.com/UBWH/ubwh.github.io/blob/master/assets/UserGuides/UG-SP-Plug-AU.pdf)|[User Guide](https://github.com/UBWH/ubwh.github.io/blob/master/assets/UserGuides/UG-SP-Strip-AU.pdf)
 | Firmware | [Releases](https://ubwh.com.au/tasmota/Tasmota-Plus/SP-Plug-ReleaseNotes.php) | [Releases](https://ubwh.com.au/tasmota/Tasmota-Plus/SP-Strip-ReleaseNotes.php)
 
-| Part Number     | [SS-4CHPro](https://ubwh.com.au/SS-4CHPro) |      
-| :---------------|:------------:|
-| Image | <img src="assets/images/SS-4CHPro.jpg" width="100px">|
-| Description | A 4-Channel Smart Relay/Switch|
-| Main page|<img src="assets/images/SS-4CHPro_main_.png" width="200px">|
-| User Guide|[User Guide](https://github.com/UBWH/ubwh.github.io/blob/master/assets/UserGuides/UG-SS-4CHPro.pdf)|
-| Firmware | [Releases](https://ubwh.com.au/tasmota/Tasmota-Plus/SS-4CHPro-ReleaseNotes.php) |
+| Part Number     | [SS-1CHPro](https://ubwh.com.au/SS-1CHPro) |   [SS-4CHPro](https://ubwh.com.au/SS-4CHPro) |    
+| :---------------|:------------:|:------------:|
+| Image | <img src="assets/images/SS-1CHPro.png" width="100px">|<img src="assets/images/SS-4CHPro.jpg" width="100px">|
+| Description | A 1-Channel Smart Relay/Switch| A 4-Channel Smart Relay/Switch|
+| Main page|<img src="assets/images/SS-1CHPro_Main.png" width="200px">|<img src="assets/images/SS-4CHPro_main_.png" width="200px">|
+| User Guide|[User Guide](https://github.com/UBWH/ubwh.github.io/blob/master/assets/UserGuides/UG-SS-1CHPro.pdf)|[User Guide](https://github.com/UBWH/ubwh.github.io/blob/master/assets/UserGuides/UG-SS-4CHPro.pdf)|
+| Firmware | [Releases](https://ubwh.com.au/tasmota/Tasmota-Plus/SS-1CHPro-ReleaseNotes.php) |[Releases](https://ubwh.com.au/tasmota/Tasmota-Plus/SS-4CHPro-ReleaseNotes.php) |
 
 
 ## Firmware Upgrade Instructions
