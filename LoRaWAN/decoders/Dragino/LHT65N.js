@@ -16,16 +16,29 @@ function decodeUplink(input) {
   switch (input.fPort) {
     case 2:
       if (Ext == 0x09) {
-        data.TempC_DS = parseFloat(((((bytes[0] << 24) >> 16) | bytes[1]) / 100).toFixed(2));
+        data.TempC_External = parseFloat(((((bytes[0] << 24) >> 16) | bytes[1]) / 100).toFixed(2));
         data.Bat_status = bytes[4] >> 6;
       } else {
         data.BatV = (((bytes[0] << 8) | bytes[1]) & 0x3fff) / 1000;
         data.Bat_status = bytes[0] >> 6;
       }
+      switch (data.Bat_status) {
+        case 0:
+          data.Bat_level = "Very low";
+          break;
+        case 1:
+          data.Bat_level = "Low";
+          break;
+        case 2:
+          data.Bat_level = "OK";
+          break;
+        default:
+          data.Bat_level = "Good";
+      }
 
       if (Ext != 0x0f) {
-        data.TempC_SHT = parseFloat(((((bytes[2] << 24) >> 16) | bytes[3]) / 100).toFixed(2));
-        data.Hum_SHT = parseFloat(((((bytes[4] << 8) | bytes[5]) & 0xfff) / 10).toFixed(1));
+        data.TempC_Internal = parseFloat(((((bytes[2] << 24) >> 16) | bytes[3]) / 100).toFixed(2));
+        data.Hum_Internal = parseFloat(((((bytes[4] << 8) | bytes[5]) & 0xfff) / 10).toFixed(1));
       }
       if (Connect == '1') {
         data.No_connect = 'Sensor no connection';
@@ -35,7 +48,7 @@ function decodeUplink(input) {
         data.Ext_sensor = 'No external sensor';
       } else if (Ext == '1') {
         data.Ext_sensor = 'Temperature Sensor';
-        data.TempC_DS = parseFloat(((((bytes[7] << 24) >> 16) | bytes[8]) / 100).toFixed(2));
+        data.TempC_External = parseFloat(((((bytes[7] << 24) >> 16) | bytes[8]) / 100).toFixed(2));
       } else if (Ext == '4') {
         data.Work_mode = 'Interrupt Sensor send';
         data.Exti_pin_level = bytes[7] ? 'High' : 'Low';
@@ -78,21 +91,21 @@ function decodeUplink(input) {
 function normalizeUplink(input) {
   var data = [];
 
-  if (input.data.TempC_SHT) {
+  if (input.data.TempC_Internal) {
     data.push({
       air: {
         location: 'indoor',
-        temperature: input.data.TempC_SHT,
-        relativeHumidity: input.data.Hum_SHT,
+        temperature: input.data.TempC_Internal,
+        relativeHumidity: input.data.Hum_Internal,
       },
     });
   }
 
-  if (input.data.TempC_DS) {
+  if (input.data.TempC_External) {
     var val = {
       air: {
         location: 'outdoor',
-        temperature: input.data.TempC_DS,
+        temperature: input.data.TempC_External,
       },
     };
     if (input.data.BatV) {
