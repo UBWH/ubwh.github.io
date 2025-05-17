@@ -13,6 +13,9 @@ function decodeUplink(input) {
   var poll_message_status = (bytes[6] & 0x40) >> 6;
   var Connect = (bytes[6] & 0x80) >> 7;
   var data = {};
+  data.vendor = 'Dragino';
+  data.model = 'LHT65';
+  
   switch (input.fPort) {
     case 2:
       if (Ext == 0x09) {
