@@ -86,7 +86,7 @@ function Decode(fPort, bytes, variables) {
   var temp_DS18B20=(value/10).toFixed(2);//DS18B20,temperature  
   var s_flag = bytes[7];	
   return {
-       Node_type:"DDS75-LB",
+       Node_type:"DDS75-L",
        Bat:batV,
        Distance:distance,
 	   Interrupt_flag:i_flag,
@@ -108,7 +108,7 @@ function Decode(fPort, bytes, variables) {
         data_sum+=data;
     }
     return{
-	Node_type:"DDS75-LB",
+	Node_type:"DDS75-L",
     DATALOG:data_sum,
     PNACKMD:pnack,
     };
@@ -120,7 +120,7 @@ function Decode(fPort, bytes, variables) {
     var sensor;
     
     if(bytes[0]==0x27)
-       sensor= "DDS75-LB";
+       sensor= "DDS75-L";
       
     if(bytes[4]==0xff)
       sub_band="NULL";
