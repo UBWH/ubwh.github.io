@@ -1,4 +1,3 @@
-
 function str_pad(byte) {
   var zero = '00';
   var hex = byte.toString(16);
@@ -12,14 +11,21 @@ function decodeUplink(input) {
   var Ext = bytes[6] & 0x0f;
   var poll_message_status = (bytes[6] & 0x40) >> 6;
   var Connect = (bytes[6] & 0x80) >> 7;
+  var TempC;
   var data = {};
   data.vendor = 'Dragino';
-  data.model = 'LHT65';
+  data.Node_type = 'LHT65';
   
   switch (input.fPort) {
     case 2:
-      if (Ext == 0x09) {
-        data.TempC_External = parseFloat(((((bytes[0] << 24) >> 16) | bytes[1]) / 100).toFixed(2));
+      if (Ext == 0x09) {   
+        TempC = bytes[0]<<8 | bytes[1];
+        if (0x7FFF == TempC) {
+          data.Ext_SensorConnected = 0;
+        } else {
+          data.Ext_SensorConnected = 1;
+	      data.TempC_External = parseFloat((TempC / 100).toFixed(2));
+        }   
         data.Bat_status = bytes[4] >> 6;
       } else {
         data.BatV = (((bytes[0] << 8) | bytes[1]) & 0x3fff) / 1000;
@@ -51,7 +57,13 @@ function decodeUplink(input) {
         data.Ext_sensor = 'No external sensor';
       } else if (Ext == '1') {
         data.Ext_sensor = 'Temperature Sensor';
-        data.TempC_External = parseFloat(((((bytes[7] << 24) >> 16) | bytes[8]) / 100).toFixed(2));
+        TempC = bytes[7]<<8 | bytes[8];
+        if ( 0x7FFF == TempC) {
+          data.Ext_SensorConnected = 0;
+        } else {
+          data.Ext_SensorConnected = 1;
+	      data.TempC_External = parseFloat((TempC / 100).toFixed(2));
+        } 
       } else if (Ext == '4') {
         data.Work_mode = 'Interrupt Sensor send';
         data.Exti_pin_level = bytes[7] ? 'High' : 'Low';
@@ -119,3 +131,13 @@ function normalizeUplink(input) {
 
   return { data: data };
 }
+
+function encodeDownlink(input) {
+  var command = input.data.command;
+  var output = [];
+  for (var i=0,j=0; i<command.length; i+=2,j++) {
+   output[j]=parseInt(command.substr(i,2), 16);
+  }
+  return {bytes: output};
+}
+
